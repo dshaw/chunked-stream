@@ -1,0 +1,28 @@
+{
+  "name": "chunked-stream",
+  "description": "Chunked Stream on a pattern. \\n by default.",
+  "version": "0.0.1",
+  "keywords": [
+    "stream"
+  ],
+  "author": "Daniel D. Shaw <dshaw@dshaw.com> (http://dshaw.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dshaw/chunked-stream.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dshaw/chunked-stream/issues"
+  },
+  "main": "./chunked-stream",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.0.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
