@@ -5,7 +5,11 @@
   "keywords": [
     "stream"
   ],
-  "author": "Daniel D. Shaw <dshaw@dshaw.com> (http://dshaw.com)",
+  "author": {
+    "name": "Daniel D. Shaw",
+    "email": "dshaw@dshaw.com",
+    "url": "http://dshaw.com"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/dshaw/chunked-stream.git"
@@ -15,13 +19,12 @@
   },
   "main": "./chunked-stream",
   "scripts": {
-    "test": "make test"
+    "test": "lab ./test/*.test.js"
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~1.0.3"
+    "lab": "~0.1.6"
   },
-  "optionalDependencies": {},
   "engines": {
     "node": "*"
   }
