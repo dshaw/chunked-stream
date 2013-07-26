@@ -4,7 +4,8 @@ Buffers and rechunks on a specific character, by default '\n'.
 
 ## Status
 
-![Travis Build Status](https://secure.travis-ci.org/dshaw/chunked-stream.png)
+[![build status](https://secure.travis-ci.org/dshaw/chunked-stream.png)](http://travis-ci.org/dshaw/chunked-stream)
+
 
 ## Install
 
